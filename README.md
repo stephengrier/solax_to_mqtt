@@ -12,8 +12,9 @@ modified to work with any of the inverters supported by the python-solax module.
 pip3 install -r requirements.txt
 ```
 
-The code expects to find its configuration in `/etc/solax_to_mqtt.yaml`. An
-example config file can taken from the `solax_to_mqtt.yaml.example` file:
+The code expects to find its configuration in `/etc/solax_to_mqtt.yaml`. The
+`solax_to_mqtt.yaml.example` file contains an example config that you can copy
+and edit for your purposes:
 
 ```
 cp solax_to_mqtt.yaml.example /etc/solax_to_mqtt.yaml
