@@ -1,0 +1,12 @@
+---
+inverter:
+  host: '192.168.1.1'
+  port: 80
+  password: 'XXXXXX' # Default is the device's serial number
+mqtt:
+  topic: 'tele/solax/inverter'
+  host: 'mqtt.local'
+  port: 8883 # Or 1883 if not using TLS
+  username: 'mqtt user' # If your MQTT server requires auth
+  password: 'mqtt password'
+  cacerts_file: '/etc/ssl/cert.pem'
